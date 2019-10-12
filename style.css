@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+text-align: center;
+font-size: 150%;
+padding-top: 50px;
+}
+#header h2{
+    margin: 50px
+}
+
+.row{
+    display: flex;
+    flex-flow:row wrap;
+    margin-bottom: 2em;
+    width: 70%;
+    margin: auto;
+    
+}
+.row img{
+    width: 100%;
+}
+.row-re{
+    display: flex;
+    flex-flow:row-reverse wrap;
+    margin-bottom: 2em;
+    width: 70%;
+    margin: auto;
+}
+.row-re img{
+    width: 100%;
+}
+.chart{
+ 
+    flex: 1;
+    
+}
+.row img{
+    margin-top: 3em;
+}
+.chart h1 {
+font-size: 2em;
+text-align: center;
+margin-top: 3em;
+}
+.chart p{
+    font-size: 2em;
+    text-align: center;
+    word-wrap:break-word;
+    width: 100%;
+}
+/* .cat1{
+    order:1;
+}
+.dis{
+    order:2;
+} */
